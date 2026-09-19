@@ -1,5 +1,5 @@
 # Ignore heavy binary Hubble FITS files to keep repository light
-*.fits
+#*.fits
 *.fits.gz
 *.tmp
 
