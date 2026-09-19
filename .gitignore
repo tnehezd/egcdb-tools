@@ -1,0 +1,16 @@
+# Ignore heavy binary Hubble FITS files to keep repository light
+*.fits
+*.fits.gz
+*.tmp
+
+# Ignore downloaded catalogs and parameter logs
+*.cat
+*.param
+se_check_files.tar.gz
+
+# Ignore python execution artifacts and local directory trash
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
